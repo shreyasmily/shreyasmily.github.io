@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shreya Choudhary</title>
+<meta name="description" content="Projects, technical writing, and short fiction.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <h1>Shreya Choudhary</h1>
+    <p class="tagline">Climate &amp; ocean data analysis — ENSO, the Indian monsoon, and their teleconnections —
+       alongside technical writing and short fiction.</p>
+    <nav class="nav" aria-label="Section navigation">
+      <a href="#projects">Projects</a>
+      <a href="#writing">Writing</a>
+      <a href="#fiction">Fiction</a>
+    </nav>
+  </header>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="entry">
+      <h3><a href="https://github.com/shreyasmily/enso-sst-analysis">ENSO SST Analysis</a></h3>
+      <p>
+        EOF (Empirical Orthogonal Function) analysis of El Niño–Southern Oscillation variability in
+        tropical Pacific sea surface temperature, using NOAA's gridded OISST satellite record
+        (2016–2024). EOF1 recovers the classic ENSO pattern and explains 31.3% of SST anomaly variance;
+        thresholding its principal component identifies individual El Niño / La Niña events, including
+        the 2020–22 "triple-dip" La Niña.
+      </p>
+      <p class="meta"><a href="https://github.com/shreyasmily/enso-sst-analysis">Repository</a> ·
+         <a href="https://github.com/shreyasmily/enso-sst-analysis/blob/main/docs/ENSO_SST_Analysis.pdf">Write-up (PDF)</a></p>
+    </article>
+
+    <article class="entry">
+      <h3><a href="https://github.com/shreyasmily/india-rainfall-variability">India Rainfall Variability</a></h3>
+      <p>
+        A companion project studying the Indian summer monsoon: the All-India Rainfall Index (AIRI) and
+        regional rainfall measures, their relationship to ENSO and the Indian Ocean Dipole, and EOF-based
+        spatial patterns of monsoon variability — built on a 120-year gridded rainfall record and SST data.
+      </p>
+      <p class="meta"><a href="https://github.com/shreyasmily/india-rainfall-variability">Repository</a></p>
+    </article>
+  </section>
+
+  <section id="writing">
+    <h2>Writing</h2>
+    <p class="placeholder-note">More technical writing coming soon — for now, see the project write-ups above.</p>
+  </section>
+
+  <section id="fiction">
+    <h2>Short Stories</h2>
+    <p>
+      Short fiction, published on Substack.
+    </p>
+    <p class="meta"><a href="#">Read on Substack →</a></p>
+    <p class="placeholder-note">(placeholder link — swap in your Substack URL)</p>
+  </section>
+
+  <footer>
+    <p><a href="https://github.com/shreyasmily">github.com/shreyasmily</a> · &copy; <span id="year"></span></p>
+  </footer>
+
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
